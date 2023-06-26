@@ -22,9 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Because pooling layers do not have parameters, they do not affect the backpropagation (derivatives) calculation.
 </title>
-<meta name="description" content="Pooling layers does not have parameters which affect the back propagation. Backpropagation is an algorithm to efficiently implement gradient descent in a neural network by using the chain rule and propagating the error from the final layers to the early ones.Backward Propagation For the backward in a max pool layer, we pass of the gradient, we start with a zero matrix and fill the max index of this matrix with the gradient from above. On the other hand, if we tread it as an average pool layer, we need to fill each cell with the value of the gradient from above.There are no trainable parameters in a max-pooling layer. In the forward pass, it pass maximum value within each rectangle to the next layer. In the backward pass, it propagate error in the next layer to the place where the max value is taken, because thats where the error comes from. Save this answer. ">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-<meta name="keywords" content="Because pooling layers do not have parameters, they do not affect the backpropagation (derivatives) calculation.">
 </head>
 <body data-rsssl="1" class="page-template-default custom-background custom-background-white custom-font-enabled single-author" style="padding: 0px 0px 154px;">
 <div id="page" class="site" style="height: auto !important;">
